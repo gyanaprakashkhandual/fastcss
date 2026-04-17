@@ -1,0 +1,135 @@
+:root {
+  --display-block: block;
+  --display-inline: inline;
+  --display-inline-block: inline-block;
+  --display-flex: flex;
+  --display-inline-flex: inline-flex;
+  --display-grid: grid;
+  --display-inline-grid: inline-grid;
+  --display-table: table;
+  --display-inline-table: inline-table;
+  --display-table-row: table-row;
+  --display-table-cell: table-cell;
+  --display-table-caption: table-caption;
+  --display-table-column: table-column;
+  --display-table-column-group: table-column-group;
+  --display-table-footer-group: table-footer-group;
+  --display-table-header-group: table-header-group;
+  --display-table-row-group: table-row-group;
+  --display-flow-root: flow-root;
+  --display-contents: contents;
+  --display-list-item: list-item;
+  --display-none: none;
+
+  --visibility-visible: visible;
+  --visibility-hidden: hidden;
+  --visibility-collapse: collapse;
+
+  --opacity-0: 0;
+  --opacity-5: 0.05;
+  --opacity-10: 0.1;
+  --opacity-15: 0.15;
+  --opacity-20: 0.2;
+  --opacity-25: 0.25;
+  --opacity-30: 0.3;
+  --opacity-35: 0.35;
+  --opacity-40: 0.4;
+  --opacity-45: 0.45;
+  --opacity-50: 0.5;
+  --opacity-55: 0.55;
+  --opacity-60: 0.6;
+  --opacity-65: 0.65;
+  --opacity-70: 0.7;
+  --opacity-75: 0.75;
+  --opacity-80: 0.8;
+  --opacity-85: 0.85;
+  --opacity-90: 0.9;
+  --opacity-95: 0.95;
+  --opacity-100: 1;
+
+  --object-fit-contain: contain;
+  --object-fit-cover: cover;
+  --object-fit-fill: fill;
+  --object-fit-none: none;
+  --object-fit-scale-down: scale-down;
+
+  --object-position-bottom: bottom;
+  --object-position-center: center;
+  --object-position-left: left;
+  --object-position-left-bottom: left bottom;
+  --object-position-left-top: left top;
+  --object-position-right: right;
+  --object-position-right-bottom: right bottom;
+  --object-position-right-top: right top;
+  --object-position-top: top;
+
+  --box-decoration-clone: clone;
+  --box-decoration-slice: slice;
+
+  --isolation-auto: auto;
+  --isolation-isolate: isolate;
+
+  --mix-blend-normal: normal;
+  --mix-blend-multiply: multiply;
+  --mix-blend-screen: screen;
+  --mix-blend-overlay: overlay;
+  --mix-blend-darken: darken;
+  --mix-blend-lighten: lighten;
+  --mix-blend-color-dodge: color-dodge;
+  --mix-blend-color-burn: color-burn;
+  --mix-blend-hard-light: hard-light;
+  --mix-blend-soft-light: soft-light;
+  --mix-blend-difference: difference;
+  --mix-blend-exclusion: exclusion;
+  --mix-blend-hue: hue;
+  --mix-blend-saturation: saturation;
+  --mix-blend-color: color;
+  --mix-blend-luminosity: luminosity;
+  --mix-blend-plus-darker: plus-darker;
+  --mix-blend-plus-lighter: plus-lighter;
+
+  --cursor-auto: auto;
+  --cursor-default: default;
+  --cursor-pointer: pointer;
+  --cursor-wait: wait;
+  --cursor-text: text;
+  --cursor-move: move;
+  --cursor-help: help;
+  --cursor-not-allowed: not-allowed;
+  --cursor-none: none;
+  --cursor-context-menu: context-menu;
+  --cursor-progress: progress;
+  --cursor-cell: cell;
+  --cursor-crosshair: crosshair;
+  --cursor-vertical-text: vertical-text;
+  --cursor-alias: alias;
+  --cursor-copy: copy;
+  --cursor-no-drop: no-drop;
+  --cursor-grab: grab;
+  --cursor-grabbing: grabbing;
+  --cursor-all-scroll: all-scroll;
+  --cursor-col-resize: col-resize;
+  --cursor-row-resize: row-resize;
+  --cursor-n-resize: n-resize;
+  --cursor-e-resize: e-resize;
+  --cursor-s-resize: s-resize;
+  --cursor-w-resize: w-resize;
+  --cursor-zoom-in: zoom-in;
+  --cursor-zoom-out: zoom-out;
+
+  --pointer-events-none: none;
+  --pointer-events-auto: auto;
+
+  --resize-none: none;
+  --resize-both: both;
+  --resize-horizontal: horizontal;
+  --resize-vertical: vertical;
+
+  --user-select-none: none;
+  --user-select-text: text;
+  --user-select-all: all;
+  --user-select-auto: auto;
+
+  --appearance-none: none;
+  --appearance-auto: auto;
+}

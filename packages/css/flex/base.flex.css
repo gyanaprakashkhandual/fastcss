@@ -1,0 +1,130 @@
+:root {
+  --flex-direction-row: row;
+  --flex-direction-row-reverse: row-reverse;
+  --flex-direction-col: column;
+  --flex-direction-col-reverse: column-reverse;
+
+  --flex-wrap-wrap: wrap;
+  --flex-wrap-nowrap: nowrap;
+  --flex-wrap-wrap-reverse: wrap-reverse;
+
+  --flex-1: 1 1 0%;
+  --flex-auto: 1 1 auto;
+  --flex-initial: 0 1 auto;
+  --flex-none: none;
+
+  --flex-grow-0: 0;
+  --flex-grow-1: 1;
+  --flex-grow-2: 2;
+  --flex-grow-3: 3;
+
+  --flex-shrink-0: 0;
+  --flex-shrink-1: 1;
+  --flex-shrink-2: 2;
+  --flex-shrink-3: 3;
+
+  --flex-basis-auto: auto;
+  --flex-basis-full: 100%;
+  --flex-basis-1-of-2: 50%;
+  --flex-basis-1-of-3: 33.333333%;
+  --flex-basis-2-of-3: 66.666667%;
+  --flex-basis-1-of-4: 25%;
+  --flex-basis-3-of-4: 75%;
+  --flex-basis-0: 0px;
+  --flex-basis-1: 0.25rem;
+  --flex-basis-2: 0.5rem;
+  --flex-basis-4: 1rem;
+  --flex-basis-8: 2rem;
+  --flex-basis-12: 3rem;
+  --flex-basis-16: 4rem;
+  --flex-basis-20: 5rem;
+  --flex-basis-24: 6rem;
+  --flex-basis-32: 8rem;
+  --flex-basis-40: 10rem;
+  --flex-basis-48: 12rem;
+  --flex-basis-56: 14rem;
+  --flex-basis-64: 16rem;
+  --flex-basis-80: 20rem;
+  --flex-basis-96: 24rem;
+
+  --order-first: -9999;
+  --order-last: 9999;
+  --order-none: 0;
+  --order-1: 1;
+  --order-2: 2;
+  --order-3: 3;
+  --order-4: 4;
+  --order-5: 5;
+  --order-6: 6;
+  --order-7: 7;
+  --order-8: 8;
+  --order-9: 9;
+  --order-10: 10;
+  --order-11: 11;
+  --order-12: 12;
+
+  --justify-content-normal: normal;
+  --justify-content-start: flex-start;
+  --justify-content-end: flex-end;
+  --justify-content-center: center;
+  --justify-content-between: space-between;
+  --justify-content-around: space-around;
+  --justify-content-evenly: space-evenly;
+  --justify-content-stretch: stretch;
+
+  --justify-items-start: start;
+  --justify-items-end: end;
+  --justify-items-center: center;
+  --justify-items-stretch: stretch;
+  --justify-items-normal: normal;
+
+  --justify-self-auto: auto;
+  --justify-self-start: start;
+  --justify-self-end: end;
+  --justify-self-center: center;
+  --justify-self-stretch: stretch;
+
+  --align-content-normal: normal;
+  --align-content-center: center;
+  --align-content-start: flex-start;
+  --align-content-end: flex-end;
+  --align-content-between: space-between;
+  --align-content-around: space-around;
+  --align-content-evenly: space-evenly;
+  --align-content-baseline: baseline;
+  --align-content-stretch: stretch;
+
+  --align-items-start: flex-start;
+  --align-items-end: flex-end;
+  --align-items-center: center;
+  --align-items-baseline: baseline;
+  --align-items-stretch: stretch;
+
+  --align-self-auto: auto;
+  --align-self-start: flex-start;
+  --align-self-end: flex-end;
+  --align-self-center: center;
+  --align-self-baseline: baseline;
+  --align-self-stretch: stretch;
+
+  --place-content-center: center;
+  --place-content-start: start;
+  --place-content-end: end;
+  --place-content-between: space-between;
+  --place-content-around: space-around;
+  --place-content-evenly: space-evenly;
+  --place-content-baseline: baseline;
+  --place-content-stretch: stretch;
+
+  --place-items-start: start;
+  --place-items-end: end;
+  --place-items-center: center;
+  --place-items-baseline: baseline;
+  --place-items-stretch: stretch;
+
+  --place-self-auto: auto;
+  --place-self-start: start;
+  --place-self-end: end;
+  --place-self-center: center;
+  --place-self-stretch: stretch;
+}

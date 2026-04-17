@@ -1,0 +1,151 @@
+:root {
+  --prose-body: var(--color-gray-700);
+  --prose-headings: var(--color-gray-900);
+  --prose-lead: var(--color-gray-600);
+  --prose-links: var(--color-blue-600);
+  --prose-bold: var(--color-gray-900);
+  --prose-counters: var(--color-gray-500);
+  --prose-bullets: var(--color-gray-300);
+  --prose-hr: var(--color-gray-200);
+  --prose-quotes: var(--color-gray-900);
+  --prose-quote-borders: var(--color-gray-300);
+  --prose-captions: var(--color-gray-500);
+  --prose-kbd: var(--color-gray-900);
+  --prose-kbd-shadows: 17 17 17;
+  --prose-code: var(--color-gray-900);
+  --prose-pre-code: var(--color-gray-200);
+  --prose-pre-bg: var(--color-gray-800);
+  --prose-th-borders: var(--color-gray-300);
+  --prose-td-borders: var(--color-gray-200);
+
+  --type-scale-ratio: 1.25;
+
+  --heading-1-size: var(--font-size-5xl);
+  --heading-1-weight: var(--font-weight-extrabold);
+  --heading-1-line-height: var(--line-height-tight);
+  --heading-1-letter-spacing: var(--letter-spacing-tight);
+  --heading-1-margin-top: 0;
+  --heading-1-margin-bottom: var(--spacing-4);
+
+  --heading-2-size: var(--font-size-4xl);
+  --heading-2-weight: var(--font-weight-bold);
+  --heading-2-line-height: var(--line-height-tight);
+  --heading-2-letter-spacing: var(--letter-spacing-tight);
+  --heading-2-margin-top: var(--spacing-10);
+  --heading-2-margin-bottom: var(--spacing-4);
+
+  --heading-3-size: var(--font-size-3xl);
+  --heading-3-weight: var(--font-weight-bold);
+  --heading-3-line-height: var(--line-height-snug);
+  --heading-3-letter-spacing: var(--letter-spacing-normal);
+  --heading-3-margin-top: var(--spacing-8);
+  --heading-3-margin-bottom: var(--spacing-3);
+
+  --heading-4-size: var(--font-size-2xl);
+  --heading-4-weight: var(--font-weight-semibold);
+  --heading-4-line-height: var(--line-height-snug);
+  --heading-4-letter-spacing: var(--letter-spacing-normal);
+  --heading-4-margin-top: var(--spacing-6);
+  --heading-4-margin-bottom: var(--spacing-2);
+
+  --heading-5-size: var(--font-size-xl);
+  --heading-5-weight: var(--font-weight-semibold);
+  --heading-5-line-height: var(--line-height-normal);
+  --heading-5-letter-spacing: var(--letter-spacing-normal);
+  --heading-5-margin-top: var(--spacing-5);
+  --heading-5-margin-bottom: var(--spacing-2);
+
+  --heading-6-size: var(--font-size-lg);
+  --heading-6-weight: var(--font-weight-semibold);
+  --heading-6-line-height: var(--line-height-normal);
+  --heading-6-letter-spacing: var(--letter-spacing-wide);
+  --heading-6-margin-top: var(--spacing-4);
+  --heading-6-margin-bottom: var(--spacing-1);
+
+  --body-xs-size: var(--font-size-xs);
+  --body-xs-weight: var(--font-weight-normal);
+  --body-xs-line-height: var(--line-height-normal);
+  --body-xs-letter-spacing: var(--letter-spacing-normal);
+
+  --body-sm-size: var(--font-size-sm);
+  --body-sm-weight: var(--font-weight-normal);
+  --body-sm-line-height: var(--line-height-normal);
+  --body-sm-letter-spacing: var(--letter-spacing-normal);
+
+  --body-md-size: var(--font-size-base);
+  --body-md-weight: var(--font-weight-normal);
+  --body-md-line-height: var(--line-height-relaxed);
+  --body-md-letter-spacing: var(--letter-spacing-normal);
+
+  --body-lg-size: var(--font-size-lg);
+  --body-lg-weight: var(--font-weight-normal);
+  --body-lg-line-height: var(--line-height-relaxed);
+  --body-lg-letter-spacing: var(--letter-spacing-normal);
+
+  --body-xl-size: var(--font-size-xl);
+  --body-xl-weight: var(--font-weight-normal);
+  --body-xl-line-height: var(--line-height-relaxed);
+  --body-xl-letter-spacing: var(--letter-spacing-normal);
+
+  --label-xs-size: var(--font-size-xs);
+  --label-xs-weight: var(--font-weight-medium);
+  --label-xs-line-height: var(--line-height-none);
+  --label-xs-letter-spacing: var(--letter-spacing-wide);
+
+  --label-sm-size: var(--font-size-sm);
+  --label-sm-weight: var(--font-weight-medium);
+  --label-sm-line-height: var(--line-height-none);
+  --label-sm-letter-spacing: var(--letter-spacing-wide);
+
+  --label-md-size: var(--font-size-base);
+  --label-md-weight: var(--font-weight-medium);
+  --label-md-line-height: var(--line-height-none);
+  --label-md-letter-spacing: var(--letter-spacing-normal);
+
+  --label-lg-size: var(--font-size-lg);
+  --label-lg-weight: var(--font-weight-medium);
+  --label-lg-line-height: var(--line-height-none);
+  --label-lg-letter-spacing: var(--letter-spacing-normal);
+
+  --code-size: var(--font-size-sm);
+  --code-weight: var(--font-weight-normal);
+  --code-line-height: var(--line-height-relaxed);
+  --code-letter-spacing: var(--letter-spacing-normal);
+  --code-font: var(--font-family-mono);
+
+  --overline-size: var(--font-size-xs);
+  --overline-weight: var(--font-weight-semibold);
+  --overline-line-height: var(--line-height-none);
+  --overline-letter-spacing: var(--letter-spacing-widest);
+  --overline-transform: uppercase;
+
+  --caption-size: var(--font-size-xs);
+  --caption-weight: var(--font-weight-normal);
+  --caption-line-height: var(--line-height-normal);
+  --caption-letter-spacing: var(--letter-spacing-normal);
+
+  --display-sm-size: var(--font-size-4xl);
+  --display-sm-weight: var(--font-weight-extrabold);
+  --display-sm-line-height: var(--line-height-tight);
+  --display-sm-letter-spacing: var(--letter-spacing-tighter);
+
+  --display-md-size: var(--font-size-5xl);
+  --display-md-weight: var(--font-weight-extrabold);
+  --display-md-line-height: var(--line-height-tight);
+  --display-md-letter-spacing: var(--letter-spacing-tighter);
+
+  --display-lg-size: var(--font-size-6xl);
+  --display-lg-weight: var(--font-weight-black);
+  --display-lg-line-height: var(--line-height-none);
+  --display-lg-letter-spacing: var(--letter-spacing-tighter);
+
+  --display-xl-size: var(--font-size-7xl);
+  --display-xl-weight: var(--font-weight-black);
+  --display-xl-line-height: var(--line-height-none);
+  --display-xl-letter-spacing: var(--letter-spacing-tighter);
+
+  --display-2xl-size: var(--font-size-8xl);
+  --display-2xl-weight: var(--font-weight-black);
+  --display-2xl-line-height: var(--line-height-none);
+  --display-2xl-letter-spacing: var(--letter-spacing-tighter);
+}
