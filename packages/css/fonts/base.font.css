@@ -1,0 +1,141 @@
+:root {
+  --font-family-sans:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-serif:
+    ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-family-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  --font-family-display: var(--font-family-sans);
+  --font-family-body: var(--font-family-sans);
+  --font-family-heading: var(--font-family-sans);
+  --font-family-code: var(--font-family-mono);
+
+  --font-size-2xs: 0.625rem;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+  --font-size-7xl: 4.5rem;
+  --font-size-8xl: 6rem;
+  --font-size-9xl: 8rem;
+  --font-size-10xl: 10rem;
+
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  --font-style-normal: normal;
+  --font-style-italic: italic;
+  --font-style-oblique: oblique;
+
+  --line-height-none: 1;
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --line-height-loose: 2;
+  --line-height-xs: 1rem;
+  --line-height-sm: 1.25rem;
+  --line-height-base: 1.5rem;
+  --line-height-lg: 1.75rem;
+  --line-height-xl: 1.75rem;
+  --line-height-2xl: 2rem;
+  --line-height-3xl: 2.25rem;
+  --line-height-4xl: 2.5rem;
+  --line-height-5xl: 3rem;
+  --line-height-6xl: 3.75rem;
+  --line-height-7xl: 4.5rem;
+  --line-height-8xl: 6rem;
+  --line-height-9xl: 8rem;
+
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+  --letter-spacing-ultra: 0.2em;
+
+  --font-variant-normal: normal;
+  --font-variant-small-caps: small-caps;
+  --font-variant-all-small-caps: all-small-caps;
+  --font-variant-petite-caps: petite-caps;
+  --font-variant-unicase: unicase;
+  --font-variant-titling-caps: titling-caps;
+
+  --text-decoration-none: none;
+  --text-decoration-underline: underline;
+  --text-decoration-overline: overline;
+  --text-decoration-line-through: line-through;
+
+  --text-decoration-style-solid: solid;
+  --text-decoration-style-double: double;
+  --text-decoration-style-dotted: dotted;
+  --text-decoration-style-dashed: dashed;
+  --text-decoration-style-wavy: wavy;
+
+  --text-decoration-thickness-auto: auto;
+  --text-decoration-thickness-from-font: from-font;
+  --text-decoration-thickness-1: 1px;
+  --text-decoration-thickness-2: 2px;
+  --text-decoration-thickness-4: 4px;
+  --text-decoration-thickness-8: 8px;
+
+  --text-underline-offset-auto: auto;
+  --text-underline-offset-1: 1px;
+  --text-underline-offset-2: 2px;
+  --text-underline-offset-4: 4px;
+  --text-underline-offset-8: 8px;
+
+  --text-transform-none: none;
+  --text-transform-uppercase: uppercase;
+  --text-transform-lowercase: lowercase;
+  --text-transform-capitalize: capitalize;
+  --text-transform-full-width: full-width;
+
+  --text-overflow-clip: clip;
+  --text-overflow-ellipsis: ellipsis;
+
+  --word-break-normal: normal;
+  --word-break-words: break-word;
+  --word-break-all: break-all;
+  --word-break-keep: keep-all;
+
+  --white-space-normal: normal;
+  --white-space-nowrap: nowrap;
+  --white-space-pre: pre;
+  --white-space-pre-line: pre-line;
+  --white-space-pre-wrap: pre-wrap;
+  --white-space-break-spaces: break-spaces;
+
+  --hyphens-none: none;
+  --hyphens-manual: manual;
+  --hyphens-auto: auto;
+
+  --tab-size-2: 2;
+  --tab-size-4: 4;
+  --tab-size-8: 8;
+
+  --text-indent-0: 0px;
+  --text-indent-1: 0.25rem;
+  --text-indent-2: 0.5rem;
+  --text-indent-4: 1rem;
+  --text-indent-8: 2rem;
+  --text-indent-16: 4rem;
+}
