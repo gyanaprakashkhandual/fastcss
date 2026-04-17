@@ -1,0 +1,110 @@
+:root {
+  --border-width-0: 0px;
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-4: 4px;
+  --border-width-8: 8px;
+
+  --border-style-solid: solid;
+  --border-style-dashed: dashed;
+  --border-style-dotted: dotted;
+  --border-style-double: double;
+  --border-style-hidden: hidden;
+  --border-style-none: none;
+  --border-style-groove: groove;
+  --border-style-ridge: ridge;
+  --border-style-inset: inset;
+  --border-style-outset: outset;
+
+  --border-color-default: var(--color-border-default);
+  --border-color-strong: var(--color-border-strong);
+  --border-color-subtle: var(--color-border-subtle);
+  --border-color-transparent: transparent;
+  --border-color-current: currentColor;
+  --border-color-black: var(--color-black);
+  --border-color-white: var(--color-white);
+  --border-color-gray-100: var(--color-gray-100);
+  --border-color-gray-200: var(--color-gray-200);
+  --border-color-gray-300: var(--color-gray-300);
+  --border-color-gray-400: var(--color-gray-400);
+  --border-color-gray-500: var(--color-gray-500);
+  --border-color-gray-600: var(--color-gray-600);
+  --border-color-gray-700: var(--color-gray-700);
+  --border-color-gray-800: var(--color-gray-800);
+  --border-color-blue-300: var(--color-blue-300);
+  --border-color-blue-400: var(--color-blue-400);
+  --border-color-blue-500: var(--color-blue-500);
+  --border-color-blue-600: var(--color-blue-600);
+  --border-color-red-300: var(--color-red-300);
+  --border-color-red-400: var(--color-red-400);
+  --border-color-red-500: var(--color-red-500);
+  --border-color-green-300: var(--color-green-300);
+  --border-color-green-400: var(--color-green-400);
+  --border-color-green-500: var(--color-green-500);
+  --border-color-amber-300: var(--color-amber-300);
+  --border-color-amber-400: var(--color-amber-400);
+  --border-color-amber-500: var(--color-amber-500);
+
+  --radius-none: 0px;
+  --radius-xs: 0.0625rem;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-base: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 2rem;
+  --radius-full: 9999px;
+
+  --outline-width-0: 0px;
+  --outline-width-1: 1px;
+  --outline-width-2: 2px;
+  --outline-width-4: 4px;
+  --outline-width-8: 8px;
+
+  --outline-style-solid: solid;
+  --outline-style-dashed: dashed;
+  --outline-style-dotted: dotted;
+  --outline-style-double: double;
+  --outline-style-none: none;
+
+  --outline-offset-0: 0px;
+  --outline-offset-1: 1px;
+  --outline-offset-2: 2px;
+  --outline-offset-4: 4px;
+  --outline-offset-8: 8px;
+
+  --ring-width-0: 0px;
+  --ring-width-1: 1px;
+  --ring-width-2: 2px;
+  --ring-width-4: 4px;
+  --ring-width-8: 8px;
+  --ring-width-inset: inset;
+
+  --ring-offset-0: 0px;
+  --ring-offset-1: 1px;
+  --ring-offset-2: 2px;
+  --ring-offset-4: 4px;
+  --ring-offset-8: 8px;
+
+  --ring-color-default: rgb(59 130 246 / 0.5);
+  --ring-offset-color-default: var(--color-white);
+
+  --divide-width-0: 0px;
+  --divide-width-1: 1px;
+  --divide-width-2: 2px;
+  --divide-width-4: 4px;
+  --divide-width-8: 8px;
+
+  --divide-style-solid: solid;
+  --divide-style-dashed: dashed;
+  --divide-style-dotted: dotted;
+  --divide-style-double: double;
+  --divide-style-none: none;
+
+  --divide-color-default: var(--color-gray-200);
+  --divide-color-gray-100: var(--color-gray-100);
+  --divide-color-gray-200: var(--color-gray-200);
+  --divide-color-gray-300: var(--color-gray-300);
+}

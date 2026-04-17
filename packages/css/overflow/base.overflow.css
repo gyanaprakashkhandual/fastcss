@@ -1,0 +1,99 @@
+:root {
+  --overflow-auto: auto;
+  --overflow-hidden: hidden;
+  --overflow-clip: clip;
+  --overflow-visible: visible;
+  --overflow-scroll: scroll;
+
+  --overflow-x-auto: auto;
+  --overflow-x-hidden: hidden;
+  --overflow-x-clip: clip;
+  --overflow-x-visible: visible;
+  --overflow-x-scroll: scroll;
+
+  --overflow-y-auto: auto;
+  --overflow-y-hidden: hidden;
+  --overflow-y-clip: clip;
+  --overflow-y-visible: visible;
+  --overflow-y-scroll: scroll;
+
+  --overscroll-auto: auto;
+  --overscroll-contain: contain;
+  --overscroll-none: none;
+
+  --overscroll-x-auto: auto;
+  --overscroll-x-contain: contain;
+  --overscroll-x-none: none;
+
+  --overscroll-y-auto: auto;
+  --overscroll-y-contain: contain;
+  --overscroll-y-none: none;
+
+  --scroll-snap-type-none: none;
+  --scroll-snap-type-x-mandatory: x mandatory;
+  --scroll-snap-type-x-proximity: x proximity;
+  --scroll-snap-type-y-mandatory: y mandatory;
+  --scroll-snap-type-y-proximity: y proximity;
+  --scroll-snap-type-both-mandatory: both mandatory;
+  --scroll-snap-type-both-proximity: both proximity;
+
+  --scroll-snap-align-start: start;
+  --scroll-snap-align-end: end;
+  --scroll-snap-align-center: center;
+  --scroll-snap-align-none: none;
+
+  --scroll-snap-stop-normal: normal;
+  --scroll-snap-stop-always: always;
+
+  --scroll-behavior-auto: auto;
+  --scroll-behavior-smooth: smooth;
+
+  --scroll-margin-0: 0px;
+  --scroll-margin-1: 0.25rem;
+  --scroll-margin-2: 0.5rem;
+  --scroll-margin-3: 0.75rem;
+  --scroll-margin-4: 1rem;
+  --scroll-margin-5: 1.25rem;
+  --scroll-margin-6: 1.5rem;
+  --scroll-margin-8: 2rem;
+  --scroll-margin-10: 2.5rem;
+  --scroll-margin-12: 3rem;
+  --scroll-margin-16: 4rem;
+  --scroll-margin-20: 5rem;
+  --scroll-margin-24: 6rem;
+  --scroll-margin-28: 7rem;
+  --scroll-margin-32: 8rem;
+
+  --scroll-padding-0: 0px;
+  --scroll-padding-1: 0.25rem;
+  --scroll-padding-2: 0.5rem;
+  --scroll-padding-3: 0.75rem;
+  --scroll-padding-4: 1rem;
+  --scroll-padding-5: 1.25rem;
+  --scroll-padding-6: 1.5rem;
+  --scroll-padding-8: 2rem;
+  --scroll-padding-10: 2.5rem;
+  --scroll-padding-12: 3rem;
+  --scroll-padding-16: 4rem;
+  --scroll-padding-20: 5rem;
+  --scroll-padding-24: 6rem;
+  --scroll-padding-28: 7rem;
+  --scroll-padding-32: 8rem;
+
+  --touch-action-auto: auto;
+  --touch-action-none: none;
+  --touch-action-pan-x: pan-x;
+  --touch-action-pan-left: pan-left;
+  --touch-action-pan-right: pan-right;
+  --touch-action-pan-y: pan-y;
+  --touch-action-pan-up: pan-up;
+  --touch-action-pan-down: pan-down;
+  --touch-action-pinch-zoom: pinch-zoom;
+  --touch-action-manipulation: manipulation;
+
+  --will-change-auto: auto;
+  --will-change-scroll: scroll-position;
+  --will-change-contents: contents;
+  --will-change-transform: transform;
+  --will-change-opacity: opacity;
+}
