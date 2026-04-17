@@ -1,0 +1,71 @@
+:root {
+  --shadow-none: none;
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg:
+    0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl:
+    0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --shadow-3xl: 0 35px 60px -15px rgb(0 0 0 / 0.3);
+  --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --shadow-inner-md: inset 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-inner-lg: inset 0 10px 15px -3px rgb(0 0 0 / 0.1);
+
+  --shadow-colored-xs: 0 1px 2px 0 var(--shadow-color, rgb(0 0 0 / 0.05));
+  --shadow-colored-sm:
+    0 1px 3px 0 var(--shadow-color, rgb(0 0 0 / 0.1)),
+    0 1px 2px -1px var(--shadow-color, rgb(0 0 0 / 0.1));
+  --shadow-colored-md:
+    0 4px 6px -1px var(--shadow-color, rgb(0 0 0 / 0.1)),
+    0 2px 4px -2px var(--shadow-color, rgb(0 0 0 / 0.1));
+  --shadow-colored-lg:
+    0 10px 15px -3px var(--shadow-color, rgb(0 0 0 / 0.1)),
+    0 4px 6px -4px var(--shadow-color, rgb(0 0 0 / 0.1));
+  --shadow-colored-xl:
+    0 20px 25px -5px var(--shadow-color, rgb(0 0 0 / 0.1)),
+    0 8px 10px -6px var(--shadow-color, rgb(0 0 0 / 0.1));
+  --shadow-colored-2xl: 0 25px 50px -12px var(--shadow-color, rgb(0 0 0 / 0.25));
+
+  --drop-shadow-none: drop-shadow(0 0 #0000);
+  --drop-shadow-xs: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+  --drop-shadow-sm: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1))
+    drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+  --drop-shadow-md: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
+    drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  --drop-shadow-lg: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+    drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  --drop-shadow-xl: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03))
+    drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  --drop-shadow-2xl: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+
+  --text-shadow-none: none;
+  --text-shadow-xs: 0 1px 1px rgb(0 0 0 / 0.1);
+  --text-shadow-sm: 0 1px 2px rgb(0 0 0 / 0.15), 0 0px 1px rgb(0 0 0 / 0.1);
+  --text-shadow-md: 0 2px 4px rgb(0 0 0 / 0.15), 0 1px 2px rgb(0 0 0 / 0.1);
+  --text-shadow-lg: 0 4px 8px rgb(0 0 0 / 0.2), 0 2px 4px rgb(0 0 0 / 0.1);
+  --text-shadow-xl: 0 8px 16px rgb(0 0 0 / 0.25), 0 4px 8px rgb(0 0 0 / 0.1);
+
+  --shadow-glow-xs: 0 0 4px 1px var(--glow-color, rgb(59 130 246 / 0.4));
+  --shadow-glow-sm: 0 0 8px 2px var(--glow-color, rgb(59 130 246 / 0.4));
+  --shadow-glow-md: 0 0 16px 4px var(--glow-color, rgb(59 130 246 / 0.4));
+  --shadow-glow-lg: 0 0 24px 6px var(--glow-color, rgb(59 130 246 / 0.4));
+  --shadow-glow-xl: 0 0 40px 8px var(--glow-color, rgb(59 130 246 / 0.4));
+
+  --shadow-elevation-1:
+    0 1px 3px rgb(0 0 0 / 0.12), 0 1px 2px rgb(0 0 0 / 0.24);
+  --shadow-elevation-2:
+    0 3px 6px rgb(0 0 0 / 0.16), 0 3px 6px rgb(0 0 0 / 0.23);
+  --shadow-elevation-3:
+    0 10px 20px rgb(0 0 0 / 0.19), 0 6px 6px rgb(0 0 0 / 0.23);
+  --shadow-elevation-4:
+    0 14px 28px rgb(0 0 0 / 0.25), 0 10px 10px rgb(0 0 0 / 0.22);
+  --shadow-elevation-5:
+    0 19px 38px rgb(0 0 0 / 0.3), 0 15px 12px rgb(0 0 0 / 0.22);
+
+  --shadow-brutal-sm: 2px 2px 0px 0px rgb(0 0 0 / 1);
+  --shadow-brutal-md: 4px 4px 0px 0px rgb(0 0 0 / 1);
+  --shadow-brutal-lg: 6px 6px 0px 0px rgb(0 0 0 / 1);
+  --shadow-brutal-xl: 8px 8px 0px 0px rgb(0 0 0 / 1);
+}
